@@ -1,0 +1,206 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.contant {
+  flex: 1 1 auto;
+}
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.header-row {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+.header {
+  padding: 40px;
+  background-color: #445162;
+}
+.header__title {
+  font-size: 60px;
+  padding-bottom: 40px;
+  color: #ffffff;
+  font-family: "Arial";
+  filter: drop-shadow(0.5px 0.866px 0px rgba(0, 0, 0, 0.3));
+}
+.header__list li {
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  filter: drop-shadow(0.5px 0.866px 0px rgba(0,0,0,0.3));
+}
+.header__list li:before {
+  content: url("../img/check icon.png");
+  padding-right: 11px;
+}
+
+/* ------------ */
+
+.about {
+  padding: 40px;
+  
+}
+.about__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.about__title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+}
+
+.about__content {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+
+/* -------------- */
+
+.site-block {
+  background-color: #f5f5f5;
+  padding: 40px;
+}
+.site-block__title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+  font-family: "Arial";
+  text-align: center;
+  padding-bottom: 30px;
+}
+.site-block__table {
+  display: flex;
+}
+.leftblock {
+  
+  flex-direction: row;
+}
+.items {
+  display: flex;
+}
+.items__first {
+  margin-bottom: 30px;
+}
+.leftblock__body, .rightblock__body {
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+.rightblock__title , .leftblock__title {
+  font-size: 24px;
+  line-height: 30px;
+  color: #445161;
+}
+.rightblock__content , .leftblock__content {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+.leftblock {
+  margin-right: 24px;
+}
+.leftblock__img , .rightblock__img {
+  max-width: 250px;
+}
+/* ------------ */
+
+.bythat__title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #445161;
+  font-family: "Arial";
+  text-align:center;
+}
+.bythat__body {
+  padding-bottom: 50px;
+}
+.bythat__table {
+  display: flex;
+  max-width: 990px;
+  margin: 0 auto;
+}
+.bythat__container {
+  
+}
+.bythat__block {
+  flex: 0 1 33.333%;
+}
+.firstblock , .secondblock {
+  margin-right: 45px;
+}
+.block__title {
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 18px 0 12px 0;
+}
+.block__requerest {
+  font-size: 40px;
+  line-height: 30px;
+  color: #445162;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 24px 0 19px 0;
+}
+.bythat__block {
+  background-color: #445161;
+  border: 2px solid #445161;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.block__content {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 19px 30px 0px 19px;
+  flex: 1 1 auto;
+  
+}
+.bythat__row {
+  padding-bottom: 45px;
+  padding-top: 49px ;
+}
+
+.button {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius:5px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #445161;
+  font-weight: bold;
+  margin: 20px;
+  padding-top: 15px;
+  padding-bottom: 13px;
+}
+
+/* ---------- */
+
+.footer {
+  background: #f5f5f5;
+}
+.footer__content {
+  padding: 32px 5px 12px 5px;
+  font-family: 'BODO6WI';
+  font-weight: normal;
+	font-style: normal;
+	text-align: center;
+}
+
+/* ----------- */
+@font-face {
+	font-family: 'BODO6WI';
+	src: url('../fonts/BODO6WI_.eot');
+	src: local('☺'), url('../fonts/BODO6WI_.woff') format('woff'), url('../fonts/BODO6WI_.ttf') format('truetype'), url('../fonts/BODO6WI_.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
